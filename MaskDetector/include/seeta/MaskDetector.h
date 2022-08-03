@@ -14,7 +14,7 @@ namespace seeta
              * \brief initialize `MaskDetector`
              * \param setting one specifc model, or zero model
              */
-            SEETA_API explicit MaskDetector(const seeta::ModelSetting &setting = seeta::ModelSetting() );
+            SEETA_API explicit MaskDetector(const SeetaModelSetting& setting);
 
             SEETA_API ~MaskDetector();
 

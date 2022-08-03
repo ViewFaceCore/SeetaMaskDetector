@@ -424,7 +424,7 @@ namespace seeta {
 
         //////////////////////////////////////
 
-        MaskDetector::MaskDetector(const seeta::ModelSetting &setting)
+        MaskDetector::MaskDetector(const SeetaModelSetting& setting)
                 : m_impl(new Implement(setting)) {
         }
 
